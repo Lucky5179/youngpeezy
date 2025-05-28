@@ -3,8 +3,8 @@ if (allLinks) {
   allLinks.forEach((link) => {
     const hrefValue = link.getAttribute("href");
     if (!(hrefValue === "#")) {
-      link.setAttribute("href", "#");
-      link.onclick = () => false;
+      // link.setAttribute("href", "#");
+      link.onclick = () => true;
     }
   });
 }
