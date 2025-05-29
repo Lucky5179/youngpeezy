@@ -11,7 +11,7 @@ if (allLinks) {
 
 function demo() {
   const demoBlock = document.createElement("div");
-  demoBlock.innerText = "Young Peezy";
+  demoBlock.innerText = "support@youngpeezy.vip";
   demoBlock.style.cssText = `
   pointer-events: none;
   user-select: none;
